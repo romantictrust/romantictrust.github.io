@@ -1,0 +1,101 @@
+@media screen and (max-width: 650px) {
+  .footer .lower .socials {
+   margin-bottom: 2em !important; 
+  }
+  .footer .upper {
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)) !important;
+  }
+}
+
+.footer {
+  background: #6dc5dd;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  min-height: 195px;
+  break-inside: avoid;
+}
+
+.footer .upper {
+  display: grid;
+  grid-row: 1 span;
+  grid-template-columns: repeat(auto-fill, minmax(15%, 1fr));
+}
+
+.footer .upper.wrap {
+  margin-bottom: 1em;
+}
+
+.footer .box {
+  margin-left: 2em;
+  margin-top: 3em;
+  width: 110px;
+}
+
+.footer .box__title {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+}
+
+.footer .box p {
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+.footer .box__article {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  font-family: "MyriadPro-Light";
+  line-height: 1.943;
+}
+
+.footer .lower {
+  grid-row: 1 span;
+  border-top: 1px solid #ececec;
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.footer .lower__copyright {
+  display: flex;
+  justify-content: start;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-family: "MyriadPro-Light";
+  line-height: 1.2;
+  margin: 42px auto;
+  width: 89%;
+}
+
+.footer .lower__copyright p {
+  margin: 0;
+}
+
+.footer .socials {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.footer .socials__logo>a {
+  margin-right: 10px;
+}
+
+.footer .socials__logo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer .socials a {
+  width: 33px;
+  height: 33px;
+}
+
+.footer .socials img {
+  width: 100%;
+}

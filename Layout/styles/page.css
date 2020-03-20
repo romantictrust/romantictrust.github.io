@@ -1,0 +1,26 @@
+@media screen and (max-width: 1980px) {
+  .page {
+    min-width: 1080px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .page {
+    min-width: 900px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .page {
+    min-width: 500px;
+  }
+}
+
+.page {
+  background: #ffffff;
+  height: auto;
+  width: 61.4%;
+  margin: 6.2em auto;
+  border-radius: 5px;
+  box-sizing: border-box;
+}

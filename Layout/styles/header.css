@@ -1,0 +1,43 @@
+.header {
+  border-radius: 5px 5px 0 0;
+  min-height: 99px;
+  min-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: start;
+  height: 46px;
+  min-width: 245px;
+  padding-left: 30px;
+  margin: 24px auto;
+}
+
+.header .navigation {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+  height: 50px;
+  flex-grow: 1;
+  margin: 24px 0;
+}
+
+.header .navigation a {
+  text-decoration: none;
+  color: #787878;
+}
+
+.header .navigation h4 {
+  border-right: 1px solid #ececec;
+  padding: 0 1.5em 0 1.5em;
+  font-size: 16px;
+  line-height: 1.2;
+  margin: 15px 0px;
+}
+
+.navigation__item_active a h4 {
+  color: #6dc5dd;
+}

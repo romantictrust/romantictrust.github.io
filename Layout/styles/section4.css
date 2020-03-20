@@ -1,0 +1,33 @@
+.section4 {
+  display: grid;
+  background: #f77462;
+  color: #fff;
+  min-height: 200px;
+  text-align: center;
+}
+
+.section4 .text {
+  padding: 0 1em 0 1em;
+}
+
+.section4 .text__title,
+.section4 .text__title {
+  margin: 0 auto;
+}
+
+.section4 .text__title {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+.section4 .text__title h1 { 
+  margin: 0;
+}
+
+.section4 p {
+  margin: 0;
+  font-size: 18px;
+  font-family: "MyriadPro-Light";
+  line-height: 1.6;
+}
